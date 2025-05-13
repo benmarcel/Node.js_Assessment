@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    font-size: 1rem;
+    background: #f4f4f4;
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+}
+.messages{
+    list-style: none;
+   
+}
+.messages li{
+    padding: 8px;
+    margin-bottom: 10px;
+    background: #ddd;
+    border-radius: 5px;
+}
+.chat-form{
+    display: flex;
+}
+#message-input{
+    flex: 1;
+    padding: 10px;
+}
+.chat-form button{
+    padding: 10px;
+}

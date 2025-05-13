@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Chat App</title>
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>C-Talk</h1></header>
+      <ul class="messages"></ul>
+      <form class="chat-form" id="chat-form">
+        <input type="text" placeholder="write message" id="message-input" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./client.js"></script>
+  </body>
+</html>
