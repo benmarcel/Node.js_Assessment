@@ -7,14 +7,23 @@
     <title>Chat App</title>
   </head>
   <body>
-    <div class="container">
-      <header><h1>C-Talk</h1></header>
+    <header><h1 class="chat-heading">C-Talk</h1></header>
+    <div class="usermodal">
+      <div class="innermodal">
+        <h2>Enter your name below to join chat</h2>
+        <input type="text" class="username">
+        <br>
+        <button type="button" class="join-btn">Join</button>
+        </div>
+    </div>
+    <section class="chat-section">
+      
       <ul class="messages"></ul>
       <form class="chat-form" id="chat-form">
         <input type="text" placeholder="write message" id="message-input" />
         <button type="submit">Send</button>
       </form>
-    </div>
+    </section>
     <script src="/socket.io/socket.io.js"></script>
     <script src="./client.js"></script>
   </body>

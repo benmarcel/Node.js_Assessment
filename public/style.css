@@ -9,9 +9,42 @@ body{
     font-size: 1rem;
     background: #f4f4f4;
 }
-.container{
+.usermodal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0008; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innermodal{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.innermodal input{
+    padding: 3px;
+    margin-bottom: 6px;
+}
+.innermodal button{
+    background-color: rgb(92, 92, 245);
+    color: white;
+    padding: 3px 5px;
+}
+.innermodal button:hover{
+    background-color: rgb(13, 13, 236); 
+}
+.chat-section{
+    display: none;
     max-width: 600px;
     margin: 50px auto;
+}
+.chat-heading{
+    margin:15px;
 }
 .messages{
     list-style: none;

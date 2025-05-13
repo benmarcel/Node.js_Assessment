@@ -33,14 +33,14 @@ cd  real-time-chat-app
 npm init -y
 npm install express socket.io
 ```
-2. create server.js: this is where you setup your data
+2. create server.js: this is where you setup your server
 3. Create a public folder this where you add all static file like index.html, style.css, and client.js file.
-4. Run the App
+4. Run the App:
 
 ```Bash
 node server.js
 ```
-5. Test the app by going to http://localhost:500 on your browser 
+5. Test the app by going to http://localhost:5000 on your browser 
 6. open multiple tab to test the concurrent connections and message broadcast.
 
 
